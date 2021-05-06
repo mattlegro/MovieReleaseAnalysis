@@ -1,6 +1,6 @@
 # Phase 1 Project
 
-This repo is a collection of notebooks and resources used to conduct the following project.
+This repo is a collection of notebooks and resources used to conduct descriptive statistics for the following project.
 
 ## Business Problem
 
@@ -19,7 +19,7 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)
 
-From these files, the following tables were used to build a dataset, saved in dataFiles as movie_collection.
+From these files, all were unzipped into dataFiles. The following tables were used to build a dataset, saved in dataFiles as movie_collection.
 * imdb.title.basics
 * imdb.title.ratings
 * imdb.title.principals
