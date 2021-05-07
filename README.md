@@ -36,6 +36,8 @@ These two tables were then concatenated and duplicates removed, resulting in a c
 
 ### How much should Microsoft spend?
 
+<img src="ROIvBudgetLOESS.png">
+
 ### How should the production budget be invested?
 
 ### When should the film be released?
