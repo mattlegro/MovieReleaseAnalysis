@@ -36,14 +36,54 @@ These two tables were then concatenated and duplicates removed, resulting in a c
 
 ### How much should Microsoft spend?
 
-<img src="ROIvBudgetLOESS.png">
+<img src="Media/ROIvBudgetLOESS.png">
+
+hi 
+
+![](Media/ROIvBudgetLOESS.png)
+
+Except for budgets less than ~20mil, return on investment trends upward with increased budget. So, what subset of movie data should we look at for patterns?
+
+<img src="ColoredGrossvBudget.png">
+<img src="ROIdistribution.png">
+
+There are many movies that weren't profitable, and many of the extremely high return movies had an extremely low budget, such that there net profit would be the same or lower than for movies with a lower return percentage but higher starting budget. As there is also less movies in the highest budget categories, we will look at the middle of our distribution, with ROI percents between 100 and 700 and with budgets between $10 and $100 million.
 
 ### How should the production budget be invested?
 
+Though ROI's are similarly distributed between movie genres in our sample, the Thriller movie category does beat out the others and has some additional advantages.
+
+<img src="GenreBoxRating.png">
+<img src="MovieGenresBar.png">
+
+We can infer from the above graphs that Thriller production could be a good niche to break into, getting consistent returns without having to worry about production quality, meaning less can be spent on big name cast and crew members and there will be less competing releases.
+
+
 ### When should the film be released?
+
+<img src="monthGross.png">
+<img src="monthROI.png">
+
+Looking at the above two graphs, we can see that a decision to release in the early summer months leads to the greatest ceiling for both Worldwide Gross and ROI.
+
+<img src="weekdayROI.png">
+
+Finally, we see that a release on Tuesday will likely generate the highest return for our movie's release.
+
 
 ## Summary
 
 ### Our Conclusions
 
+* In general, spending more on production will increase the return on the original investment, but based on our dataset, it is recommended to spend between $10 million and $100 million
+* Of the different movie genres, Thriller movies are least often produced but tend to yield the highest ROI. Additionally, ROI may be less affected by production quality, decreasing production budget
+* To maximize availability on theatrical release, release movies on a Tuesday evening in one of the early summer months
+
+
 ### For Future Research
+
+* These datasets and analysis only investigates returns based on reported worldwide box office gross numbers and estimated production budgets. The theatrical release of a blockbuster film does not account for a majority of movie-related income; there is home entertainment sales (DVDs), Video on Demand and Streaming Services, Television airtime,  and merchandising. On the other hand, costs related to these are also not explored; manufacturing DVDs and merchandise, deals with streaming service providers and television providers, etc. Similarly, ROI’s presented here have the potential to be hugely overinflated because it is unclear exactly what is included in the production budget estimate. It may be that marketing and other costs related solely to the theatrical release have not been accounted for.
+* We primarily looked at a subset of our movie collection where we required movies to make a profit (have ROI > 0). In the future, we can double check that the described features hold true only for profitable movies, increasing our confidence
+* We have access to data connecting movie cast and crew to IMDb ID’s which we have for every movie in our collection dataset. While for Thrillers it may not be as important, it may be that there are a subset of the production crew that is a better predictor of high return movies
+* As it relates to the first concern, the pandemic, and the rise of streaming services.. Is theatrical release worth it as a new production company with plenty of capital?
+
