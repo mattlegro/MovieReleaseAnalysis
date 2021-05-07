@@ -38,14 +38,10 @@ These two tables were then concatenated and duplicates removed, resulting in a c
 
 <img src="Media/ROIvBudgetLOESS.png">
 
-hi 
-
-![](Media/ROIvBudgetLOESS.png)
-
 Except for budgets less than ~20mil, return on investment trends upward with increased budget. So, what subset of movie data should we look at for patterns?
 
-<img src="ColoredGrossvBudget.png">
-<img src="ROIdistribution.png">
+<img src="Media/ColoredGrossvBudget.png">
+<img src="Media/ROIdistribution.png">
 
 There are many movies that weren't profitable, and many of the extremely high return movies had an extremely low budget, such that there net profit would be the same or lower than for movies with a lower return percentage but higher starting budget. As there is also less movies in the highest budget categories, we will look at the middle of our distribution, with ROI percents between 100 and 700 and with budgets between $10 and $100 million.
 
@@ -53,20 +49,20 @@ There are many movies that weren't profitable, and many of the extremely high re
 
 Though ROI's are similarly distributed between movie genres in our sample, the Thriller movie category does beat out the others and has some additional advantages.
 
-<img src="GenreBoxRating.png">
-<img src="MovieGenresBar.png">
+<img src="Media/GenreBoxRating.png">
+<img src="Media/MovieGenresBar.png">
 
 We can infer from the above graphs that Thriller production could be a good niche to break into, getting consistent returns without having to worry about production quality, meaning less can be spent on big name cast and crew members and there will be less competing releases.
 
 
 ### When should the film be released?
 
-<img src="monthGross.png">
-<img src="monthROI.png">
+<img src="Media/monthGross.png">
+<img src="Media/monthROI.png">
 
 Looking at the above two graphs, we can see that a decision to release in the early summer months leads to the greatest ceiling for both Worldwide Gross and ROI.
 
-<img src="weekdayROI.png">
+<img src="Media/weekdayROI.png">
 
 Finally, we see that a release on Tuesday will likely generate the highest return for our movie's release.
 
