@@ -36,8 +36,6 @@ These two tables were then concatenated and duplicates removed, resulting in a c
 
 ### How much should Microsoft spend?
 
-<img src="Media/ROIvBudgetLOESS.png">
-
 Except for budgets less than ~20mil, return on investment trends upward with increased budget. So, what subset of movie data should we look at for patterns?
 
 <img src="Media/ColoredGrossvBudget.png">
@@ -52,7 +50,7 @@ Though ROI's are similarly distributed between movie genres in our sample, the T
 <img src="Media/GenreBoxRating.png">
 <img src="Media/MovieGenresBar.png">
 
-We can infer from the above graphs that Thriller production could be a good niche to break into, getting consistent returns without having to worry about production quality, meaning less can be spent on big name cast and crew members and there will be less competing releases.
+We can infer from the above graphs that Thriller production could be a good niche to break into, getting consistent returns without having to worry about production quality (lower viewer ratings at same or better ROI), meaning less can be spent on big name cast and crew members and there will be less competing releases. Additionally, this is a low risk avenue, which is prudent when entering into a industry already dominated by large companies.
 
 
 ### When should the film be released?
