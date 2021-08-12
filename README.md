@@ -1,4 +1,4 @@
-# Phase 1 Project
+# Movie Release Analysis
 
 This repo is a collection of notebooks and resources used to conduct descriptive statistics for the following project.
 
